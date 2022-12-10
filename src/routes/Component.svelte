@@ -14,7 +14,14 @@
 
 <br />
 <br />
-<a href="https://xhamster.com" on:click={(e) => e.preventDefault()} on:keypress={() => {}}>
+<a
+  href="https://google.com"
+  on:click={(e) => {
+    e.preventDefault();
+    update();
+  }}
+  on:keypress={() => {}}
+>
   Good link - has href with prevent default (will not refocus)</a
 >
 
